@@ -1,0 +1,24 @@
+.button {
+  border-radius: 3px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-family: inherit;
+  background-color: #ffd84d;
+  cursor: pointer;
+  transition: background-color 0.25s;
+  color: black;
+}
+
+.button:hover {
+  background-color: #ffce22;
+}
+
+.button:focus,
+.button:focus-visible {
+  background-color: #ffce22;
+}
+
+.fullWidth {
+  width: 100%;
+}

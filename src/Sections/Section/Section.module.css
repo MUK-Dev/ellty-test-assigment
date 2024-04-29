@@ -1,0 +1,24 @@
+.section {
+  width: 100%;
+  max-width: 400px;
+  color: #9747ff;
+  padding-bottom: 2em;
+}
+
+.section .container {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  border: 2px dashed #9747ff;
+  border-radius: 5px;
+  padding: 1em;
+}
+
+.fitContent {
+  width: fit-content;
+}
+
+.fitContent .container {
+  justify-content: center;
+  align-items: center;
+}
